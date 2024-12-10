@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course CSS | Calendar Input</title>
+</head>
+<body>
+
+<main>
+
+    <label>
+        <span>Select clasico</span>
+        <select name="Cursos" id="course">
+            <option>JavaScript</option>
+            <option>NodeJS</option>
+            <option>ReactJS</option>
+            <option>NextJS</option>
+            <option>NestJS</option>
+        </select>
+    </label>
+
+
+    <br><br><br>
+    <!--    Buenas practicas de html-->
+    <label>
+        <span>Select con datalist</span>
+        <input list="courseId">
+        <datalist id="courseId">
+            <option value="JavaScript"></option>
+            <option value="NodeJS"></option>
+            <option value="ReactJS"></option>
+            <option value="NestJS"></option>
+            <option value="NextJS"></option>
+            <option value="CSS"></option>
+        </datalist>
+    </label>
+
+</main>
+
+</body>
+</html>

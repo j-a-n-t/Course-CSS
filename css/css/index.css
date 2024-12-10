@@ -1,0 +1,13 @@
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+.parrafo {
+    font-weight: lighter;
+}
+
+#parrafoId {
+    color: rebeccapurple !important;
+    font-weight: lighter;
+}
