@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course CSS | Especificidad</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<p>1. Los !important estarán por encima de los demás estilos. Sin embargo, son mala práctica y no se deberían usar.</p>
+<p> 2. Los estilos embebidos en el HTML, es decir inline styles están por encima de las clases y IDs. Sin embargo, también
+    se deberían evitar</p>
+<p>3. Los IDs están por encima de las clases. Los IDs son específicos, si se usa uno en un archivo HTML ya no se podrá
+    repetir más en ese mismo archivo. Mientras que las clases si se pueden repetir en cualquier elemento.
+</p>
+<p>
+    4. Un estilo de etiqueta es el último valor que el navegador tiene en cuenta antes de tomar los estilos por defecto de
+    esa etiqueta. Los estilos de etiqueta son los que menos peso tienen.
+</p>
+<header>
+    <h1 id="pageTitle" class="title">Empresa</h1>
+    <nav>
+        <ul id="main-nav" class="main-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Instructores</a></li>
+            <li><a style="background-color: orange" class="test" href="#">Blog</a></li>
+        </ul>
+    </nav>
+</header>
+
+</body>
+</html>
+
+
+<!--Malas Prácticas dichas en Clase Hasta Ahora-->
+<!--Utilizar tanto id en CSS-->
+<!--Utilizar el !important-->
+<!--Utilizar la etiqueta <style> dentro del archivo html-->
+<!--Utilizar el atributo style dentro de las etiquetas html-->
+<!--Utilizar div para contener todo ignorando los header, nav, section, article, etc.-->
+<!--No utilizar la etiqueta <form> para hacer formularios-->
+<!--Utilizar las etiquetas <select> y <option> para hacer selectores o menús desplegables.-->
+<!--No nombrar el primer archivo html del proyecto como index.html-->
+<!--No tener archivos .css para cada pantalla de un proyecto.-->
+<!--Tener todo el css junto en un solo archivo.-->
+<!--No ponerle el atributo alt a una imagen-->
+<!--Poner imágenes dentro de <div> en vez de <figure>-->
+<!--Utilizar textos solo en mayúscula en HTML, en vez de utilizar el atributo de CSS, text-transform, con el valor uppercase. Ya que al hacer esto pareciera que estuvieras gritando.-->
+<!--Poner videos que se reproduzcan solos.-->
+<!--No optimizar las imágenes.-->
+<!--No tener cuidado de cual es el formato ideal para las imágenes y su respectivo peso.-->
+<!--No tener cuidado con la respectiva semántica de HTML, y con la sintaxis adecuada para CSS.-->
+<!--No cerrar las etiquetas que se cierran en sí mismas como <br/>-->
+<!--No comentar partes esenciales de tu código.-->
+<!--No poner la etiqueta <meta name=”robots” content=”index,follow”> en tu proyecto para que los navegadores los puedan ubicar mejor.-->
+<!--No usar la etiqueta <meta name=”viewpor” content=”width=device-width, initial-scale=1.0”> para hacer tu proyecto responsive.-->
+<!--No poner el atributo autocomplete=”valor” en los campos de tu formulario para hacerle la vida más fácil al usuario-->
+<!--No usar el atributo required en los campos obligatorios de tu formulario como una primera capa de seguridad-->
