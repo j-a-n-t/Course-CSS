@@ -2,3 +2,19 @@ html {
     font-size: 75%;
     font-family: Verdana, Tahoma, sans-serif;
 }
+
+h1{
+    font-size: inherit;
+}
+
+span{
+    font-weight: bold;
+}
+
+p {
+    color: darkred!important;
+}
+
+p{
+    color: blue;
+}
