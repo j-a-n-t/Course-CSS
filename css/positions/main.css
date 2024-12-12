@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+}
+
+.main-container__sub-container {
+    background-color: darkred;
+    border-radius: 4rem;
+    border: solid .2rem black;
+    margin: auto;
+    padding: 2rem;
+    width: 50%;
+}
+
+.main-container__sub-container--one {
+    background-color: red;
+    bottom: 5rem;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.main-container__sub-container--one p {
+    padding: 2rem 4rem;
+    text-align: center;
+}
