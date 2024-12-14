@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-main__skeleton {
+    flex-basis: 10rem;
+    height: 10rem;
+    flex-grow: 1;
+
+}
+
+.container-main__one {
+    background-color: darkblue;
+}
+
+.container-main__two {
+    background-color: darkred;
+}
+
+.container-main__three {
+    background-color: cadetblue;
+}
+
+.container-main__four {
+    background-color: peachpuff;
+}
+
+.container-main__five {
+    background-color: cornflowerblue;
+}
+
+.container-main__six {
+    background-color: darksalmon;
+}
+
+header {
+    background-color: darkblue;
+    color: whitesmoke;
+    font-weight: lighter;
+    width: 100%;
+    padding: 2rem;
+}
+
+header .container-header {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+
+header .container-header .container-header__container-logo {
+    flex-grow: 1;
+}
+
+header .container-header .container-header__nav ul {
+    list-style: none;
+}
+
+header .container-header .container-header__nav ul li {
+    display: inline-flex;
+    margin-left: 1rem;
+}
+
+.container-main {
+    display: flex;
+    flex-basis: 10rem;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+aside {
+    align-items: center;
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 25%;
+}
+
+aside .aside-container {
+    background-color: darkred;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+main {
+    padding: 1rem;
+    width: 75%;
+    background-color: cornflowerblue;
+}
+
+footer {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
