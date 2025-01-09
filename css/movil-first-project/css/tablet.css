@@ -1,0 +1,18 @@
+.main-plans--card .main-plans--slider {
+    justify-content: center;
+}
+
+.main-plans--card article {
+    width: 40rem;
+}
+
+.main-plans--card article .plans-card--body .card-body--price {
+    font-size: 5.2rem;
+}
+
+.main-advantages-container .main-advantages--card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    width:70%;
+}
