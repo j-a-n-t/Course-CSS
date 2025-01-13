@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Inter, sans-serif;
+}
+
+.collage-container {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: row;
+    grid-auto-rows: 18rem;
+    grid-template-columns: repeat(3, 20rem);
+    height: 50vh;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.collage--item__one {
+    background-image: url("https://images.dog.ceo/breeds/hound-afghan/n02088094_515.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+}
+
+.collage--item__two {
+    background-image: url("https://images.dog.ceo/breeds/hound-basset/n02088238_11136.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+    grid-column-end: 4;
+    grid-column-start: 2;
+}
+
+.collage--item__three {
+    background-image: url("https://images.dog.ceo/breeds/hound-basset/n02088238_11635.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+
+.collage--item__for {
+    background-image: url("https://images.dog.ceo/breeds/hound-basset/n02088238_9922.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+}
+
+.collage--item__five {
+    background-image: url("https://images.dog.ceo/breeds/hound-blood/n02088466_7801.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+}
+
+.collage--item__six {
+    background-image: url("https://images.dog.ceo/breeds/hound-ibizan/n02091244_3552.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+}
+
+.collage--item__seven {
+    background-image: url("https://images.dog.ceo/breeds/hound-english/n02089973_3147.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1.5rem .2rem #494949;
+}
+

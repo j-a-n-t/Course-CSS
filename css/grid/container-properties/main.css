@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+header {
+    background-color: #0062d2;
+    border: solid .5rem #e1bee7;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+main {
+    background-color: #0062d2;
+    border: solid .5rem #e1bee7;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2,10rem);
+    grid-template-rows: repeat(3,15rem);
+    gap: 2rem;
+
+}
+
+.items {
+    border: .5rem solid #00bcd4;
+    font-size: 4rem;
+}
+
+.items span {
+    position: relative;
+    display: inline-block;
+    background: #024105;
+    left: calc(100% - 30%);
+    width: 30%;
+    bottom: -8.6rem;
+    padding: .4rem 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #E7F5FF;
+}
